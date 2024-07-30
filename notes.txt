@@ -1,0 +1,8 @@
+Palndrome Example:
+    -->  Application in Genetics. Works in DNA sequencing generates a vast quantities of data, 
+        but standard compression algoritmns don't compress DNA sequences well- theu often end up larger after compression.
+
+        In the last 20 years, algorithms have been developed to provide more efficient compression of the data using palindromes
+         in DNA sequences.
+
+    -->  A palindromes is a word that reads the same backwards as forwards 
