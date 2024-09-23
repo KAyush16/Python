@@ -11,7 +11,7 @@ import time
 
 clock_type=["time", "monotonic", "perf_counter", "process_time"]
 for clock in clock_type:
-    info=time.get_clock_info(clock)#get_info_clock: to get info about the clock 
+    info=time.get_clock_info(clock)#get_info_clock: to get info about the clock(haar ek iteration mai clock type change hoga) 
     print(f"Clock: {clock}")
     print(f"Adjustable: {info.adjustable}")
     print(f"Implementation: {info.implementation}")

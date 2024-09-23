@@ -4,8 +4,8 @@ import random
 
 input("Press Enter to start")
 
-wait_time=random.randint(1,6)
-time.sleep(wait_time)
+wait_time=random.randint(1,6) # randint function generates random integer between 1 and 6 
+time.sleep(wait_time)# pauses the execution of the program for wait_time seconds.
 start_time=my_timer()
 input("Press Enter to stop")
 
