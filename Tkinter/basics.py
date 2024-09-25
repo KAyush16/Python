@@ -7,7 +7,7 @@ mainWindow.geometry('640x480+8+480')
 
 
 label=tkinter.Label(mainWindow,text="Hello World")
-label.pack(side="top")
+label.pack(side="top") 
 
 leftFrame=tkinter.Frame(mainWindow)
 leftFrame.pack(side="left",anchor='n',fill=tkinter.Y,expand=False)
